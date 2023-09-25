@@ -1,5 +1,4 @@
 import React, {Fragment} from 'react'
-import { useTheme } from '@mui/material/styles'
 import { 
     Container,
     Grid ,
@@ -17,7 +16,6 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MedhaLogo from '../../assets/images/medhaLogo.png';
 
 const LandingPage = ()=> {
-    const theme = useTheme();
 
   return (
 
