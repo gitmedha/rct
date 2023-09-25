@@ -40,7 +40,7 @@
 
 /* <------- media queries-------> */
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   /* Hide the image on screens >= md breakpoint */
   .logo-image {
     display: none;
