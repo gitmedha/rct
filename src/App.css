@@ -2,46 +2,101 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+
+
+
+/*--------------fonts----------------*/
+
+@font-face {
+  font-family: 'Bebas-Book';
+  src:url('./assets/fonts/BebasNeue\ Book.otf')
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Lato-Ragular';
+  src: url('./assets/fonts/Lato-Regular.ttf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'Lato-Light';
+  src: url('./assets/fonts/Lato-Light.ttf');
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'Lato-Thin';
+  src: url('./assets/fonts/Lato-Thin.ttf');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'BebasNeue-Ragular';
+  src: url('./assets/fonts/BebasNeue-Regular.ttf');
 }
 
+
+@font-face {
+  font-family: 'BebasNeue-Bold';
+  src: url('./assets/fonts/BebasNeue\ Bold.otf');
+}
+
+
+/*------css-------*/
+
+.header_sec{
+  font-family: Bebas-Book;
+  font-size: 3.5rem;
+  color:#12314c;
+  text-align: left;
+  font-weight: 600;
+}
+
+.header_body_sec {
+  text-align: left;
+  font-size: 1.1rem;
+  font-family: Lato-Light;
+  color:#000000;
+  font-weight: 500;
+}
+
+
+.secondary_header_sec {
+  font-family: Bebas-Book;
+  font-size: 2rem;
+  color:#12314c;
+  text-align: left;
+  font-weight: 600;
+}
+
+.accordion_header_sec {
+  font-family: Bebas-Book;
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: 500;
+}
+.box_header_sec {
+  font-family: BebasNeue-Bold;
+  font-size: 1.3rem;
+  color:#000000;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+.box_body_sec {
+  font-family: Lato-Light;
+  color:#000000;
+  line-height: 1.25rem;
+}
+
+.button_text {
+  font-family: Lato-Light;;
+}
 
 /* <------- media queries-------> */
 
 @media (max-width: 900px) {
-  /* Hide the image on screens >= md breakpoint */
+  /* Hide the image on screens <= md breakpoint */
   .logo-image {
     display: none;
   }
