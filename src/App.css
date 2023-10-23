@@ -90,9 +90,12 @@
 }
 
 .button_text {
-  font-family: Lato-Light;;
+  font-family: Lato-Light;
 }
 
+.button_text:hover{
+  cursor: pointer;
+}
 /* <------- media queries-------> */
 
 @media (max-width: 900px) {
