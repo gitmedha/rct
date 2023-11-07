@@ -1,14 +1,8 @@
-.App {
-  text-align: center;
-}
-
-
-
-
-
-
-
 /*--------------fonts----------------*/
+
+body {
+  margin: 0;
+}
 
 @font-face {
   font-family: 'Bebas-Book';
@@ -47,7 +41,7 @@
 .header_sec{
   font-family: Bebas-Book;
   font-size: 3.5rem;
-  color:#12314c;
+  color:#ffffff;
   text-align: left;
   font-weight: 600;
 }
@@ -56,24 +50,28 @@
   text-align: left;
   font-size: 1.1rem;
   font-family: Lato-Light;
-  color:#000000;
+  color:#ffffff;
   font-weight: 500;
 }
 
 
 .secondary_header_sec {
-  font-family: Bebas-Book;
+  font-family: BebasNeue-Bold;
   font-size: 2rem;
-  color:#12314c;
   text-align: left;
-  font-weight: 600;
+  font-weight: 1200;
+  color: #FF9700;
+  margin-left: 10px;
 }
 
 .accordion_header_sec {
-  font-family: Bebas-Book;
-  font-size: 1.2rem;
+  font-family: BebasNeue-Ragular;
+  font-size: 2rem;
   text-align: left;
-  font-weight: 500;
+  font-weight: 400;
+  color:#31B89D;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .box_header_sec {
   font-family: BebasNeue-Bold;
@@ -83,18 +81,75 @@
   margin-bottom:10px;
 }
 
+.logo-image {
+  width: 100px;
+  height: 100px;
+  filter: brightness(0) invert(1);
+}
+
+
 .box_body_sec {
   font-family: Lato-Light;
   color:#000000;
   line-height: 1.25rem;
 }
 
-.button_text {
-  font-family: Lato-Light;
+
+.learnMoreButton:hover{
+  cursor: pointer;
 }
 
-.button_text:hover{
+.downloadToolButton:hover {
   cursor: pointer;
+}
+
+.learnMoreButton {
+    color: #000000;
+    font-weight: 700;
+    pointer-events: 'all';
+    border: 2px solid #31B89D;
+    width: 15rem;
+    height: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Lato-Light;
+}
+
+.downloadToolButton {
+  color:#ffffff;
+  font-weight:700;
+  pointer-events:'all';
+  width: 15rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #31B89D;
+  font-family: Lato-Light;
+  
+}
+.age_span {
+  font-size: 2rem;
+  font-family: BebasNeue-Bold;
+  color: #000000;
+}
+
+#interview_skills_sec {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #31B89D;
+  margin-top: 4rem;
+  font-family: BebasNeue-Bold;
+  color: #ffffff;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 /* <------- media queries-------> */
 
