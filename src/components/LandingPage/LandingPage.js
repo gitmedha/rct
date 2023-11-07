@@ -1,16 +1,12 @@
-import React, {Fragment} from 'react'
+import React from 'react'
 import { 
     Container,
     Grid ,
     Box, 
-    Divider,
-    Accordion,
-    AccordionSummary,
-    AccordionDetails
+    Divider
 
 } from '@mui/material';
 
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import MedhaLogo from '../../assets/images/medhaLogo.png';
 
