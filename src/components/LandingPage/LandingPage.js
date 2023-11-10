@@ -158,14 +158,20 @@ and her team have undertaken the development, testing, and implementation of thr
 
                                 </Grid>
                                 <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
+                                {isDownloading ? 
                                     <Box sx={{
                                         borderRadius: '19px'
-                                    }}
+                                        }}
+                                        className='downloadToolButton'>
+                                            DOWNLOADING...
+                                        </Box>: <Box sx={{
+                                        borderRadius: '19px'
+                                        }}
                                         className='downloadToolButton'
                                         onClick={()=>onButtonClick('INTERVIEW SKILLS / CAREER READINESS')}
                                         >
                                         DOWNLOAD TOOL
-                                    </Box>
+                                    </Box>}
                                 </Grid>
 
                             </Grid>
@@ -237,14 +243,20 @@ and her team have undertaken the development, testing, and implementation of thr
                                 </a>
                                 </Grid>
                                 <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
+                                {isDownloading ? 
                                     <Box sx={{
                                         borderRadius: '19px'
-                                    }}
+                                        }}
+                                        className='downloadToolButton'>
+                                            DOWNLOADING...
+                                        </Box>: <Box sx={{
+                                        borderRadius: '19px'
+                                        }}
                                         className='downloadToolButton'
                                         onClick={()=>onButtonClick('CAREER PLANNING')}
                                         >
                                         DOWNLOAD TOOL
-                                    </Box>
+                                    </Box>}
                                 </Grid>
 
                             </Grid>
