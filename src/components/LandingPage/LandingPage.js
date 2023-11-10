@@ -72,7 +72,7 @@ const LandingPage = ()=> {
                             <Grid item style={{ flex: 1 }} xs={6} sm={6} md={6} lg={6} xl={6} >
                                     <Box>
                                         <div className='header_sec'>EMPLOYABILITY</div>
-                                        <div className='header_sec'>SKILLS INDICES:</div>
+                                        <div className='header_sec'>SKILLS INDICES</div>
 
                                     </Box>
                                     <Box style={{ display: 'flex', alignItems: 'center',maxWidth:'35%' }}>
@@ -81,6 +81,7 @@ const LandingPage = ()=> {
                                     <Box sx={{marginTop:'10px'}}>
                                         <div className="header_body_sec">Principal Investigator &nbsp;<a href='https://faculty.wcas.northwestern.edu/lab823/' target="_blank" rel="noopener noreferrer">Lori Beaman</a> &nbsp;
 and her team have undertaken the development, testing, and implementation of three distinct assessments to evaluate the employability impact of Medha's Career Advancement Bootcamp (CAB) through randomized controlled trials (RCTs).
+These indices (assessments) are made available as a public good for use by practitioners working to improve career readiness skills in the school-to-work transition space in the Indian subcontinent.
                                         </div>
                                     </Box>
                             </Grid>
