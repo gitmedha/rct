@@ -93,8 +93,8 @@ These indices (assessments) are made available as a public good for use by pract
             </Grid>
            
 
-           <div style={{height:'90vh', display:'flex', flexDirection:'column', justifyContent:'center'}}>
-                <Container>
+           <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'90vh'}}>
+           <Container className='secondary_section' maxWidth="xl">
                     <Box display={'flex'} marginTop={4} marginBottom={4}>
                         <div style={{width:'15px', backgroundColor:'#FF9700'}}></div>
                         <div className='secondary_header_sec'>Toolkit</div>
@@ -106,7 +106,7 @@ These indices (assessments) are made available as a public good for use by pract
                                 <div style={{marginBottom:'30px'}}>
                                     <div className='box_header_sec' >ABOUT</div>
                                     <div className='box_body_sec'>
-                                    Career readiness skills are best assessed through an interview process. The test simulates the first-round interview for hiring processes of a generalist role for students with little or no work experience. The assessment is a mock interview, scored on a standardized rubric that assesses the interviewee's ability to communicate their fit in an interview
+                                    Career readiness skills are best assessed through an interview process. The test simulates the first-round interview for hiring processes of a generalist role for students with little or no work experience. The assessment is a mock interview, scored on a standardized rubric that assesses the interviewee's ability to communicate their fit in an interview.
                                     </div>
                                 </div>
                                 
@@ -183,7 +183,7 @@ These indices (assessments) are made available as a public good for use by pract
                     </Grid>
                 </Container>
            </div>
-           <div style={{height:'90vh', display:'flex', flexDirection:'column', justifyContent:'center'}}>
+           <div style={{display:'flex', flexDirection:'column', justifyContent:'center', height:'90vh'}}>
                 <Container>
                     <div className='accordion_header_sec' id="interview_skills_sec">Career Planning</div>
                     <Grid container spacing={20}>
@@ -192,7 +192,7 @@ These indices (assessments) are made available as a public good for use by pract
                                 <div style={{marginBottom:'30px'}}>
                                     <div className='box_header_sec' >ABOUT</div>
                                     <div className='box_body_sec'>
-                                    Career Planning is a function of self-awareness as well as an understanding of available career paths. This is assessed through a reflective, planning exercise in which the participants present a Plan A and a Plan B for their career, demonstrating their knowledge of job roles, career pathways, and progression
+                                    Career Planning is a function of self-awareness as well as an understanding of available career paths. This is assessed through a reflective, planning exercise in which the participants present a Plan A and a Plan B for their career, demonstrating their knowledge of job roles, career pathways, and progression.
                                     </div>
                                 </div>
                                 
@@ -268,7 +268,7 @@ These indices (assessments) are made available as a public good for use by pract
                     </Grid>
                 </Container>
            </div>
-           <div style={{height:'90vh', display:'flex', flexDirection:'column', justifyContent:'center'}}>
+           <div style={{display:'flex', flexDirection:'column', justifyContent:'center', height:'90vh'}}>
                 <Container>
                     <div className='accordion_header_sec' id="interview_skills_sec">Team Work</div>
                     <Grid container spacing={20}>
