@@ -67,7 +67,7 @@ const LandingPage = ()=> {
 
     <>
             <Grid container style={{ display: 'flex' ,backgroundColor:'#31B89D', marginTop:0, marginBottom:0, justifyContent:'space-between', height:'90vh'}}>
-                <Container>
+                <Container maxWidth="xl">
                         <Grid container style={{ display: 'flex',marginTop:'10rem'}}>
                             <Grid item style={{ flex: 1 }} xs={6} sm={6} md={6} lg={6} xl={6} >
                                     <Box>
@@ -184,7 +184,7 @@ These indices (assessments) are made available as a public good for use by pract
                 </Container>
            </div>
            <div style={{display:'flex', flexDirection:'column', justifyContent:'center', height:'90vh'}}>
-                <Container>
+                <Container maxWidth="xl">
                     <div className='accordion_header_sec' id="interview_skills_sec">Career Planning</div>
                     <Grid container spacing={20}>
                         <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
@@ -269,7 +269,7 @@ These indices (assessments) are made available as a public good for use by pract
                 </Container>
            </div>
            <div style={{display:'flex', flexDirection:'column', justifyContent:'center', height:'90vh'}}>
-                <Container>
+                <Container maxWidth="xl">
                     <div className='accordion_header_sec' id="interview_skills_sec">Team Work</div>
                     <Grid container spacing={20}>
 
