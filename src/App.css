@@ -42,6 +42,13 @@ body {
 
 /*------css-------*/
 
+
+li {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 10px 0 10px 0;
+    text-indent: -1.5em;
+}
 .header_sec{
   font-family: BebasNeue-Ragular;
   font-size: 3.5rem;
@@ -76,12 +83,21 @@ body {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+.font-Lato-regular-500 {
+  font-family: Lato-Ragular;
+  font-size: 1.1rem;
+  color:#000000;
+  font-weight: 400;
+}
+
+
 .box_header_sec {
-  font-family: BebasNeue-Bold;
+  font-family: Lato-Ragular;
   font-size: 1.3rem;
   color:#000000;
-  margin-top: 10px;
   margin-bottom:10px;
+  font-weight: 400;
 }
 
 .logo-image {
@@ -90,19 +106,25 @@ body {
   filter: brightness(0) invert(1);
 }
 
+.banner-pattern{
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
 
 .box_body_sec {
   font-family: Lato-Light;
   color:#000000;
-  line-height: 1.25rem;
-  font-weight: 600;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 1.1rem;
 }
 
 .button_footer_sec{
-  font-family: Lato-Bold;
+  font-family: Lato-Regular;
   color:#000000;
   line-height: 1.25rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 
@@ -116,7 +138,7 @@ body {
 
 .learnMoreButton {
     color: #000000;
-    font-weight: 700;
+    font-weight: 00;
     pointer-events: 'all';
     border: 2px solid #31B89D;
     height: 2.3rem;
@@ -128,7 +150,7 @@ body {
 
 .downloadToolButton {
   color:#ffffff;
-  font-weight:700;
+  font-weight:300;
   pointer-events:'all';
   height: 2.5rem;
   display: flex;
@@ -140,7 +162,7 @@ body {
 }
 .age_span {
   font-size: 2rem;
-  font-family: BebasNeue-Bold;
+  font-family: Lato-Ragular;
   color: #000000;
 }
 
