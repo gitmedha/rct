@@ -106,7 +106,7 @@ const LandingPage = ()=> {
             </Grid>
            
 
-           <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'100%', marginTop:'1rem'}}>
+           <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'100%', marginTop:'2rem', marginBottom:'3rem'}}>
                 <Container className='secondary_section' maxWidth="xl">
                     <Box display={'flex'}>
                         <div style={{width:'15px', backgroundColor:'#FF9700'}}></div>
@@ -163,7 +163,7 @@ const LandingPage = ()=> {
                                 </div>
                                 <Grid container sx={{marginTop:'15px',display:'flex', justifyContent:'space-between', alignItems:'center',}} spacing={2}>
                                     <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
-                                        <a href="https://medhacorp-my.sharepoint.com/personal/cturillo_medha_org_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FInterview%20Preparation%2FMedha%20Interview%20Skills%5FLearn%20More%2Epdf&parent=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FInterview%20Preparation&ct=1698057618222&or=Teams%2DHL&ga=1&LOF=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                        <a href="https://medhacorp-my.sharepoint.com/personal/cturillo_medha_org_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FInterview%20Preparation%2FMedha%20Interview%20Skills%5FLearn%20More%2Epdf&parent=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FInterview%20Preparation&ct=1700139479930&or=Teams%2DHL&ga=1&LOF=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                                         <Box sx={{
                                             borderRadius: '26px'
                                         }} className="learnMoreButton">
@@ -199,7 +199,7 @@ const LandingPage = ()=> {
                     </Container> 
                 </Container>
            </div>
-           <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'100%', marginTop:'1.5rem'}}>
+           <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'100%', marginTop:'2rem', backgroundColor:'#f2f2f2', marginBottom:'2rem', paddingTop:'1rem', paddingBottom:'3rem'}}>
                 <Container className='secondary_section' maxWidth="xl">
                     <div className='accordion_header_sec' id="interview_skills_sec">Career Planning</div>
                     <Container>
@@ -340,7 +340,7 @@ const LandingPage = ()=> {
                                 </div>
                                 <Grid container sx={{marginTop:'15px',display:'flex', justifyContent:'space-between', alignItems:'center',}} spacing={2}>
                                     <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
-                                    <a href="https://medhacorp-my.sharepoint.com/personal/cturillo_medha_org_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FTeam%20Work%2FMedha%20Team%20Work%20Evaluation%5FLearn%20More%2Epdf&parent=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FTeam%20Work&ct=1698061028911&or=Teams%2DHL&ga=1&LOF=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                    <a href="https://medhacorp-my.sharepoint.com/personal/cturillo_medha_org_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FTeam%20Work%2FMedha%20Team%20Work%20Evaluation%5FLearn%20More%2Epdf&parent=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FTeam%20Work&ct=1700139410204&or=Teams%2DHL&ga=1&LOF=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                                         <Box sx={{
                                             borderRadius: '26px'
                                         }} className="learnMoreButton">
