@@ -9,7 +9,8 @@ import {
 
 
 import MedhaLogo from '../../assets/images/medhaLogo.png';
-import BannerPattern from '../../assets/images/BannerPattern.png'
+import BannerPattern from '../../assets/images/BannerPattern.png';
+import InterviewIcon from '../../assets/images/interviewIcon.png';
 
 
 
@@ -78,21 +79,21 @@ const LandingPage = ()=> {
                                     <Box>
                                         <div className="header_body_sec">
                                             <div style={{marginTop:'10px', marginBottom:'10px'}}>
-                                            Navigating the school-to-work transition in India presents an immense challenge that remains significantly under-researched. India confronts a critical employability crisis—despite increased enrollment and advancements in education, the outcomes for educated youth have regrettably declined and grown more disparate.
-                                            </div>
-                                            <div style={{marginTop:'10px', marginBottom:'10px'}}>
+                                            Navigating the school-to-work transition in India presents an immense challenge. Despite increased enrolment in education, employability outcomes for educated youth have declined. 
+In an era where substantial investments have been directed toward skilling youth, remarkably little research has been conducted to discern the efficacy of these efforts. Recognizing this gap, J-PAL and Medha partnered to evaluate an intervention aimed at tackling the pressing employability crisis.                                            </div>
+                                            {/* <div style={{marginTop:'10px', marginBottom:'10px'}}>
                                             In an era where substantial investments have been directed toward skilling India's youth, remarkably little research has been conducted to discern the efficacy of these efforts. Recognizing this gap, J-PAL and Medha partnered to evaluate an intervention aimed at tackling the pressing employability crisis.
 
-                                            </div>
+                                            </div> */}
                                             <div style={{marginTop:'10px', marginBottom:'10px'}}>
-                                            Principal Investigator &nbsp;<a href='https://faculty.wcas.northwestern.edu/lab823/' target="_blank" rel="noopener noreferrer">Lori Beaman</a> &nbsp; and her team have undertaken the development, testing, and implementation of three distinct assessments to evaluate the impact of Medha's Career Advancement Bootcamp (CAB) through randomized controlled trials (RCTs). These assessment tools are made available as a public resource for practitioners working to enhance career readiness skills in the school-to-work space in the Indian subcontinent.
-
+                                            Led by Principal Investigator &nbsp;<a href='https://faculty.wcas.northwestern.edu/lab823/' target="_blank" rel="noopener noreferrer">Lori Beaman</a>&nbsp;, three distinct assessments were developed, tested, and implemented to evaluate Medha's Career Advancement Bootcamp through randomized controlled trials. These tools, now publicly available, aid practitioners 
+working to enhance career readiness skills in the school-to-work space.
                                             </div>
-                                            <div style={{marginTop:'10px', marginBottom:'10px'}}>
+                                            {/* <div style={{marginTop:'10px', marginBottom:'10px'}}>
                                             Our collaboration endeavors to shed light on what truly works and what doesn’t in addressing this challenge, forging a path toward informed, evidence-based solutions that can empower India's youth to thrive in the workforce.
                                             Lori A. Beaman, Northwestern University
 
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </Box>
                                     
@@ -113,6 +114,11 @@ const LandingPage = ()=> {
                         <div className='secondary_header_sec'>Toolkit</div>
                     </Box>
                     <div className='accordion_header_sec' id="interview_skills_sec">Career Readiness: Interview Skills</div>
+                    
+                    <Grid item xs={12} display="flex" justifyContent="space-between">
+                        <Box sx={{textAlign:'center'}}>
+                            <img src={InterviewIcon} alt='interview logo' style={{height:'180px', width:'180px'}}/>
+                        </Box>
                     <Container>
                         <Grid container display="flex" justifyContent="space-between">
                             <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
@@ -144,9 +150,9 @@ const LandingPage = ()=> {
                             <Grid item xs={12} sm={12} md={6} lg={6} xl={6} display="flex" flexDirection="column" justifyContent="space-between">
                             <Box>
                                 <div className='box_header_sec'>Target Population</div>
-                                    <div className='box_body_sec' style={{lineHeight:'30px', marginTop:'15px'}}>
+                                    <div className='box_body_sec' style={{lineHeight:'30px', marginTop:'18px'}}>
                                         <div>
-                                        AGE <span className="age_span">19-25 Years</span>
+                                        AGE &nbsp;&nbsp;&nbsp;<span className="age_span">19&nbsp;-&nbsp;25 Years</span>
 
                                         </div>
                                         <div>
@@ -196,7 +202,9 @@ const LandingPage = ()=> {
                             </Grid>
                         </Grid>
 
-                    </Container> 
+                    </Container>
+                    </Grid>
+                     
                 </Container>
            </div>
            <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'100%', marginTop:'2rem', backgroundColor:'#f2f2f2', marginBottom:'2rem', paddingTop:'1rem', paddingBottom:'3rem'}}>
@@ -323,7 +331,7 @@ const LandingPage = ()=> {
                                 <div className='box_header_sec'>Target Population</div>
                                     <div className='box_body_sec' style={{lineHeight:'30px', marginTop:'15px'}}>
                                         <div>
-                                        AGE <span className="age_span">19-25 Years</span>
+                                        AGE &nbsp;&nbsp;&nbsp;<span className="age_span">19&nbsp;-&nbsp;25 Years</span>
 
                                         </div>
                                         <div>
