@@ -11,6 +11,8 @@ import {
 import MedhaLogo from '../../assets/images/medhaLogo.png';
 import BannerPattern from '../../assets/images/BannerPattern.png';
 import InterviewIcon from '../../assets/images/interviewIcon.png';
+import planningIcon from '../../assets/images/planning.png';
+import teamWorkIcon from '../../assets/images/teamWork.png';
 
 
 
@@ -214,7 +216,11 @@ working to enhance career readiness skills in the school-to-work space.
            <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'100%', marginTop:'2rem', backgroundColor:'#f2f2f2', marginBottom:'2rem', paddingTop:'1rem', paddingBottom:'3rem'}}>
                 <Container className='secondary_section' maxWidth="xl">
                     <div className='accordion_header_sec' id="interview_skills_sec">Career Planning</div>
-                    <Container>
+                    <Grid item xs={12} display="flex" justifyContent="space-between">
+                        <Box>
+                            <img src={planningIcon} alt='planning logo' style={{height:'180px', width:'180px'}}/>
+                        </Box>
+                        <Container>
                         <Grid container display="flex" justifyContent="space-between">
                             <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
                                 <Box>
@@ -228,7 +234,8 @@ working to enhance career readiness skills in the school-to-work space.
 
                                     <div className='box_header_sec'> Limitations</div>
                                     <div className='box_body_sec'>
-                                        <li>
+                                    <ul style={{paddingLeft:'30px'}}>
+                                    <li>
                                         This assessment is evaluated by trained enumerators and is hence limited by fallibility of enumerator training and possible bias.
                                         </li>
                                         <li>
@@ -237,6 +244,9 @@ working to enhance career readiness skills in the school-to-work space.
                                         <li>
                                         The survey has not been validated in settings of technical/vocational education institutions.
                                         </li>
+
+</ul>
+                                        
                                     </div>
                                 </Box>
 
@@ -298,12 +308,20 @@ working to enhance career readiness skills in the school-to-work space.
                         </Grid>
 
                     </Container> 
+
+                    </Grid>
+                   
                 </Container>
            </div>
            <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'100%', marginTop:'2rem'}}>
                 <Container className='secondary_section' maxWidth="xl">
                     <div className='accordion_header_sec' id="interview_skills_sec">Team Work</div>
-                    <Container>
+
+                    <Grid item xs={12} display="flex" justifyContent="space-between">
+                        <Box>
+                            <img src={teamWorkIcon} alt="team work logo" style={{height:'180px', width:'180px'}}/>
+                        </Box>
+                        <Container>
                         <Grid container display="flex" justifyContent="space-between">
                             <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
                                 <Box>
@@ -317,6 +335,7 @@ working to enhance career readiness skills in the school-to-work space.
 
                                     <div className='box_header_sec'> Limitations</div>
                                     <div className='box_body_sec'>
+                                        <ul style={{paddingLeft:'30px'}}>
                                         <li>
                                         The assessment was implemented in only one round of survey (midline assessment of the pilot cohort).                                </li>
                                         
@@ -325,6 +344,9 @@ working to enhance career readiness skills in the school-to-work space.
                                         <li>
                                         The assessment is time-intensive, and hence, heavily reliant on availability of resources.            
                                         </li>
+
+                                        </ul>
+                                        
                                     </div>
                                 </Box>
 
@@ -386,6 +408,8 @@ working to enhance career readiness skills in the school-to-work space.
                         </Grid>
 
                     </Container> 
+                    </Grid>
+                   
                 </Container>
            </div>
         <div className='footer_sec'>Toolkit designed and conceptualized by Shivani Sharma</div>
