@@ -114,12 +114,12 @@ working to enhance career readiness skills in the school-to-work space.
                     <div className='accordion_header_sec' id="interview_skills_sec">Career Readiness: Interview Skills</div>
                     
                     <Grid item xs={12} display="flex" justifyContent="space-between">
-                        <Box display="flex" flexDirection="column" justifyContent="space-between" alignItems="center">
+                        <Box display="flex" flexDirection="column">
                             <Box>
-                                <img src={InterviewIcon} alt='interview icon' style={{height:'180px', width:'180px'}}/>
+                                <img src={InterviewIcon} alt='interview icon' style={{height:'154px', width:'154px'}}/>
                             </Box>
                             <Box>
-                                <img src={limitationGrey} alt="limitations icon" style={{height:'180px', width:'180px'}}/>
+                                <img src={limitationGrey} alt="limitations icon" style={{height:'154px', width:'154px', marginTop:'5.7rem'}}/>
                             </Box>
                         </Box>
                     <Container>
@@ -156,7 +156,7 @@ working to enhance career readiness skills in the school-to-work space.
                             </Grid>
                             <Grid item xs={12} sm={12} md={6} lg={6} xl={6} display="flex" flexDirection="column" justifyContent="space-between">
                                 <Box style={{display:"flex"}}>
-                                    <img src={targetPopulationGrey} alt=" target Population icon" style={{height:'70px', width:'70px'}}/>
+                                    <img src={targetPopulationGrey} alt=" target Population icon" style={{height:'35px', width:'35px'}}/>
                                     <Box style={{marginLeft:'10px'}}>
                                         <div className='box_header_sec'>Target Population</div>
                                         <div className='box_body_sec' style={{lineHeight:'30px', marginTop:'18px'}}>
