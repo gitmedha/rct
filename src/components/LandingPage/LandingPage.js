@@ -104,8 +104,9 @@ working to enhance career readiness skills in the school-to-work space.
                                 <img src={MedhaLogo}  alt='Medha logo' className='logo-image'/>
                             </Grid>
                         </Grid>
-                        <img src={BannerPattern} alt='Banner' className='banner-pattern'></img>
+                        
                 </Container>
+                <img src={BannerPattern} alt='Banner' className='banner-pattern'></img>
             </Grid>
            
 
