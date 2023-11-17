@@ -133,6 +133,7 @@ working to enhance career readiness skills in the school-to-work space.
 
                                     <div className='box_header_sec'> Limitations</div>
                                     <div className='box_body_sec'>
+                                        <ul style={{paddingLeft:'25px'}}>
                                         <li>
                                         This is a human-administered test and hence, the results can be influenced by individual bias.
                                         </li>
@@ -142,6 +143,9 @@ working to enhance career readiness skills in the school-to-work space.
                                         <li>
                                         The survey relies on availability of a steady phone or internet network as it is administered online.
                                         </li>
+
+                                        </ul>
+                                        
                                     </div>
                                 </Box>
 
