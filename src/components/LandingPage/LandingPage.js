@@ -11,12 +11,11 @@ import {
 import MedhaLogo from '../../assets/images/medhaLogo.png';
 import BannerPattern from '../../assets/images/BannerPattern.png';
 import InterviewIcon from '../../assets/images/interviewIcon.png';
-import planningIcon from '../../assets/images/planning.png';
-import teamWorkIcon from '../../assets/images/teamWork.png';
+import targetPopulationGrey from '../../assets/images/planning.png';
+import planningIcon from '../../assets/images/careerplanning.png';
 import limitationGrey from '../../assets/images/limitationGrey.png';
 import limitationWhite from '../../assets/images/limitationWhite.png';
-import targetPopulationGrey from '../../assets/images/targetPopulationGrey.png';
-import targetPopulationWhite from '../../assets/images/targetPopulationWhite.png';
+import teamWorkGrey from '../../assets/images/targetPopulationGrey.png';
 
 
 
@@ -84,12 +83,9 @@ const LandingPage = ()=> {
                                     </Box>
                                     <Box>
                                         <div className="header_body_sec">
+                                            <div style={{marginTop:'10px', marginBottom:'10px'}}>School-to-work transition in India is challenging. Despite increased enrolment in education, youth employability outcomes have declined. And with substantial investments made toward skilling youth, little research has been conducted to discern their efficacy. Recognizing this gap, J-PAL and Medha partnered to evaluate an intervention that tackles the pressing employability crisis.                                            </div>
                                             <div style={{marginTop:'10px', marginBottom:'10px'}}>
-                                            Navigating the school-to-work transition in India presents an immense challenge. Despite increased enrolment in education, employability outcomes for educated youth have declined. 
-In an era where substantial investments have been directed toward skilling youth, remarkably little research has been conducted to discern the efficacy of these efforts. Recognizing this gap, J-PAL and Medha partnered to evaluate an intervention aimed at tackling the pressing employability crisis.                                            </div>
-                                            <div style={{marginTop:'10px', marginBottom:'10px'}}>
-                                            Led by Principal Investigator &nbsp;<a href='https://faculty.wcas.northwestern.edu/lab823/' target="_blank" rel="noopener noreferrer">Lori Beaman</a>&nbsp;, three distinct assessments were developed, tested, and implemented to evaluate Medha's Career Advancement Bootcamp through randomized controlled trials. These tools, now publicly available, aid practitioners 
-working to enhance career readiness skills in the school-to-work space.
+                                            Led by Principal Investigator &nbsp;<a href='https://faculty.wcas.northwestern.edu/lab823/' target="_blank" rel="noopener noreferrer">Lori Beaman</a>&nbsp;, three distinct assessments were developed and implemented to evaluate Medha's Career Advancement Bootcamp through randomized controlled trials. These publicly available tools aid practitioners in enhancing career readiness skills in the school-to-work space.
                                             </div>
                                         </div>
                                     </Box>
@@ -205,7 +201,7 @@ working to enhance career readiness skills in the school-to-work space.
                                             </Grid>
 
                                         </Grid>
-                                    </Box>              
+                                </Box>              
                             </Grid>
                         </Grid>
 
@@ -218,8 +214,13 @@ working to enhance career readiness skills in the school-to-work space.
                 <Container className='secondary_section' maxWidth="xl">
                     <div className='accordion_header_sec' id="interview_skills_sec">Career Planning</div>
                     <Grid item xs={12} display="flex" justifyContent="space-between">
-                        <Box>
-                            <img src={planningIcon} alt='planning logo' style={{height:'180px', width:'180px'}}/>
+                        <Box display="flex" flexDirection="column">
+                            <Box>
+                            <img src={planningIcon} alt='planning logo' style={{height:'154px', width:'154px'}}/>
+                            </Box>
+                            <Box>
+                                <img src={limitationWhite} alt="limitations icon" style={{height:'154px', width:'154px', marginTop:'5.7rem'}}/>
+                            </Box>
                         </Box>
                         <Container>
                         <Grid container display="flex" justifyContent="space-between">
@@ -254,57 +255,57 @@ working to enhance career readiness skills in the school-to-work space.
                                     
                             </Grid>
                             <Grid item xs={12} sm={12} md={6} lg={6} xl={6} display="flex" flexDirection="column" justifyContent="space-between">
-                            <Box>
-                                <div className='box_header_sec'>Target Population</div>
-                                    <div className='box_body_sec' style={{lineHeight:'30px', marginTop:'15px'}}>
-                                        <div>
-                                        AGE <span className="age_span">19-25 Years</span>
+                                <Box style={{display:"flex"}}>
+                                    <img src={targetPopulationGrey} alt=" target Population icon" style={{height:'35px', width:'35px'}}/>
+                                    <Box style={{marginLeft:'10px'}}>
+                                        <div className='box_header_sec'>Target Population</div>
+                                        <div className='box_body_sec' style={{lineHeight:'30px', marginTop:'18px'}}>
+                                            <div>
+                                            AGE &nbsp;&nbsp;&nbsp;<span className="age_span">19&nbsp;-&nbsp;25 Years</span>
 
-                                        </div>
-                                        <div>
-                                        Students or graduates of general degree colleges
+                                            </div>
+                                            <div>
+                                            Students or graduates of general degree colleges
 
+                                            </div>
+                                        
                                         </div>
-                                    
-                                    </div>
+                                    </Box>
                                 </Box>
-
                                 <Box>
-                                <div className="font-Lato-regular-500">
-                                    Click the options below to :
-                                </div>
-                                <Grid container sx={{marginTop:'15px',display:'flex', justifyContent:'space-between', alignItems:'center',}} spacing={2}>
-                                    <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
-                                    <a href="https://medhacorp-my.sharepoint.com/personal/cturillo_medha_org_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FCareer%20Planning%2FMedha%20Career%20Planning%5FLearn%20More%2Epdf&parent=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FCareer%20Planning&ct=1698062583868&or=Teams%2DHL&ga=1&LOF=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-                                        <Box sx={{
-                                            borderRadius: '26px'
-                                        }} className="learnMoreButton">
-                                            LEARN MORE
-                                        </Box>
-                                        </a>
+                                        <div className="font-Lato-regular-500">
+                                            Click the options below to :
+                                        </div>
+                                        <Grid container sx={{marginTop:'15px',display:'flex', justifyContent:'space-between', alignItems:'center',}} spacing={2}>
+                                            <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
+                                            <a href="https://medhacorp-my.sharepoint.com/personal/cturillo_medha_org_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FCareer%20Planning%2FMedha%20Career%20Planning%5FLearn%20More%2Epdf&parent=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FCareer%20Planning&ct=1698062583868&or=Teams%2DHL&ga=1&LOF=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                                <Box sx={{
+                                                    borderRadius: '26px'
+                                                }} className="learnMoreButton">
+                                                    LEARN MORE
+                                                </Box>
+                                                </a>
 
-                                    </Grid>
-                                    <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
-                                    {isDownloading ? 
-                                        <Box sx={{
-                                            borderRadius: '19px'
-                                            }}
-                                            className='downloadToolButton'>
-                                                DOWNLOADING...
-                                            </Box>: <Box sx={{
-                                            borderRadius: '19px'
-                                            }}
-                                            className='downloadToolButton'
-                                            onClick={()=>onButtonClick('CAREER PLANNING')}
-                                            >
-                                            DOWNLOAD TOOL
-                                        </Box>}
-                                    </Grid>
+                                            </Grid>
+                                            <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
+                                            {isDownloading ? 
+                                                <Box sx={{
+                                                    borderRadius: '19px'
+                                                    }}
+                                                    className='downloadToolButton'>
+                                                        DOWNLOADING...
+                                                    </Box>: <Box sx={{
+                                                    borderRadius: '19px'
+                                                    }}
+                                                    className='downloadToolButton'
+                                                    onClick={()=>onButtonClick('CAREER PLANNING')}
+                                                    >
+                                                    DOWNLOAD TOOL
+                                                </Box>}
+                                            </Grid>
 
-                                </Grid>
-                                </Box>
-                                    
-                                    
+                                        </Grid>
+                                </Box>            
                             </Grid>
                         </Grid>
 
@@ -319,8 +320,13 @@ working to enhance career readiness skills in the school-to-work space.
                     <div className='accordion_header_sec' id="interview_skills_sec">Team Work</div>
 
                     <Grid item xs={12} display="flex" justifyContent="space-between">
-                        <Box>
-                            <img src={teamWorkIcon} alt="team work logo" style={{height:'180px', width:'180px'}}/>
+                        <Box display="flex" flexDirection="column">
+                            <Box>
+                            <img src={teamWorkGrey} alt='team work logo' style={{height:'154px', width:'154px'}}/>
+                            </Box>
+                            <Box>
+                                <img src={limitationGrey} alt="limitations icon" style={{height:'154px', width:'154px', marginTop:'7rem'}}/>
+                            </Box>
                         </Box>
                         <Container>
                         <Grid container display="flex" justifyContent="space-between">
@@ -354,57 +360,58 @@ working to enhance career readiness skills in the school-to-work space.
                                     
                             </Grid>
                             <Grid item xs={12} sm={12} md={6} lg={6} xl={6} display="flex" flexDirection="column" justifyContent="space-between">
-                            <Box>
-                                <div className='box_header_sec'>Target Population</div>
-                                    <div className='box_body_sec' style={{lineHeight:'30px', marginTop:'15px'}}>
-                                        <div>
-                                        AGE &nbsp;&nbsp;&nbsp;<span className="age_span">19&nbsp;-&nbsp;25 Years</span>
+                            <Box style={{display:"flex"}}>
+                                    <img src={targetPopulationGrey} alt=" target Population icon" style={{height:'35px', width:'35px'}}/>
+                                    <Box style={{marginLeft:'10px'}}>
+                                        <div className='box_header_sec'>Target Population</div>
+                                        <div className='box_body_sec' style={{lineHeight:'30px', marginTop:'18px'}}>
+                                            <div>
+                                            AGE &nbsp;&nbsp;&nbsp;<span className="age_span">19&nbsp;-&nbsp;25 Years</span>
 
-                                        </div>
-                                        <div>
-                                        Students or graduates of general degree colleges
+                                            </div>
+                                            <div>
+                                            Students or graduates of general degree colleges
 
+                                            </div>
+                                        
                                         </div>
-                                    
-                                    </div>
+                                    </Box>
                                 </Box>
-
                                 <Box>
-                                <div className="font-Lato-regular-500">
-                                    Click the options below to :
-                                </div>
-                                <Grid container sx={{marginTop:'15px',display:'flex', justifyContent:'space-between', alignItems:'center',}} spacing={2}>
-                                    <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
-                                    <a href="https://medhacorp-my.sharepoint.com/personal/cturillo_medha_org_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FTeam%20Work%2FMedha%20Team%20Work%20Evaluation%5FLearn%20More%2Epdf&parent=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FTeam%20Work&ct=1700139410204&or=Teams%2DHL&ga=1&LOF=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-                                        <Box sx={{
-                                            borderRadius: '26px'
-                                        }} className="learnMoreButton">
-                                            LEARN MORE
-                                        </Box>
-                                        </a>
+                                        <div className="font-Lato-regular-500">
+                                            Click the options below to :
+                                        </div>
+                                        <Grid container sx={{marginTop:'15px',display:'flex', justifyContent:'space-between', alignItems:'center',}} spacing={2}>
+                                            <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
+                                            <a href="https://medhacorp-my.sharepoint.com/personal/cturillo_medha_org_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FTeam%20Work%2FMedha%20Team%20Work%20Evaluation%5FLearn%20More%2Epdf&parent=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FTeam%20Work&ct=1700139410204&or=Teams%2DHL&ga=1&LOF=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                                <Box sx={{
+                                                    borderRadius: '26px'
+                                                }} className="learnMoreButton">
+                                                    LEARN MORE
+                                                </Box>
+                                                </a>
 
-                                    </Grid>
-                                    <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
-                                    {isDownloading ? 
-                                        <Box sx={{
-                                            borderRadius: '19px'
-                                            }}
-                                            className='downloadToolButton'>
-                                                DOWNLOADING...
-                                            </Box>: <Box sx={{
-                                            borderRadius: '19px'
-                                            }}
-                                            className='downloadToolButton'
-                                            onClick={()=>onButtonClick('TEAM WORK')}
-                                            >
-                                            DOWNLOAD TOOL
-                                        </Box>}
-                                    </Grid>
+                                            </Grid>
+                                            <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
+                                            {isDownloading ? 
+                                                <Box sx={{
+                                                    borderRadius: '19px'
+                                                    }}
+                                                    className='downloadToolButton'>
+                                                        DOWNLOADING...
+                                                    </Box>: <Box sx={{
+                                                    borderRadius: '19px'
+                                                    }}
+                                                    className='downloadToolButton'
+                                                    onClick={()=>onButtonClick('TEAM WORK')}
+                                                    >
+                                                    DOWNLOAD TOOL
+                                                </Box>}
+                                            </Grid>
 
-                                </Grid>
+                                        </Grid>
                                 </Box>
-                                    
-                                    
+                                  
                             </Grid>
                         </Grid>
 
