@@ -77,7 +77,7 @@ const LandingPage = ()=> {
                 <Container maxWidth="xl">
                         <Grid container style={{ display: 'flex', justifyContent:"space-between", marginTop:'2rem', marginBottom:'15rem'}}>
                             <Grid item style={{ flex: 1 }} xs={6} sm={6} md={6} lg={6} xl={6} >
-                                    <div className='header_sec'>Toolkit for Assessing <br/>Employability and Life skills</div>
+                                    <div className='header_sec'>Toolkit for Assessing <br/>Career Readiness</div>
                                     <Box style={{ display: 'flex', alignItems: 'center',maxWidth:'40%'}}>
                                         <Divider style={{ flex: 1, backgroundColor: '#ffffff', height: '2px',marginBottom:'10px'}} />
                                     </Box>
@@ -109,7 +109,7 @@ const LandingPage = ()=> {
                         <div style={{width:'15px', backgroundColor:'#FF9700'}}></div>
                         <div className='secondary_header_sec'>Toolkit</div>
                     </Box>
-                    <div className='accordion_header_sec' id="interview_skills_sec">Career Readiness: Interview Skills</div>
+                    <div className='accordion_header_sec' id="interview_skills_sec">Interview Skills</div>
                     
                     <Grid item xs={12} display="flex" justifyContent="space-between">
                         <Grid container display="flex" justifyContent="space-between">
