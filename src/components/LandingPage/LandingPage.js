@@ -99,6 +99,10 @@ const LandingPage = ()=> {
                         </Grid>
                         
                 </Container>
+
+                <div style={{textAlign:'center', width:'100%', paddingBottom:'20px'} } className="scroll_sec">
+                    Scroll down to view toolkit
+                </div>
                
             </Grid>
            

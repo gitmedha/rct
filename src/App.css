@@ -64,7 +64,11 @@ li {
   font-weight: 500;
 }
 
-
+.scroll_sec {
+  font-family: Lato-Ragular;
+  font-size: 1.5rem;
+  color:#ffffff;
+}
 .secondary_header_sec {
   font-family: Lato-Bold;
   font-size: 2rem;
