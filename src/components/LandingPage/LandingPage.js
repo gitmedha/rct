@@ -75,10 +75,10 @@ const LandingPage = ()=> {
     <>
             <Grid container style={{ display: 'flex' ,backgroundColor:'#31B89D', marginTop:0, marginBottom:0, justifyContent:'space-between', height:'100%'}}>
                 <Container maxWidth="xl">
-                        <Grid container style={{ display: 'flex', justifyContent:"space-between", marginTop:'10px'}}>
+                        <Grid container style={{ display: 'flex', justifyContent:"space-between", marginTop:'2rem', marginBottom:'15rem'}}>
                             <Grid item style={{ flex: 1 }} xs={6} sm={6} md={6} lg={6} xl={6} >
-                                    <div className='header_sec'>Toolkit for Assessing Employability and Life skills</div>
-                                    <Box style={{ display: 'flex', alignItems: 'center',maxWidth:'40%' }}>
+                                    <div className='header_sec'>Toolkit for Assessing <br/>Employability and Life skills</div>
+                                    <Box style={{ display: 'flex', alignItems: 'center',maxWidth:'40%'}}>
                                         <Divider style={{ flex: 1, backgroundColor: '#ffffff', height: '2px',marginBottom:'10px'}} />
                                     </Box>
                                     <Box>
@@ -99,11 +99,11 @@ const LandingPage = ()=> {
                         </Grid>
                         
                 </Container>
-                <img src={BannerPattern} alt='Banner' className='banner-pattern'></img>
+               
             </Grid>
            
 
-           <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'100%', marginTop:'2rem', marginBottom:'3rem'}}>
+           <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'100%', marginTop:'8rem', marginBottom:'8rem'}}>
                 <Container className='secondary_section' maxWidth="xl">
                     <Box display={'flex'}>
                         <div style={{width:'15px', backgroundColor:'#FF9700'}}></div>
@@ -112,29 +112,24 @@ const LandingPage = ()=> {
                     <div className='accordion_header_sec' id="interview_skills_sec">Career Readiness: Interview Skills</div>
                     
                     <Grid item xs={12} display="flex" justifyContent="space-between">
-                        <Box display="flex" flexDirection="column">
-                            <Box>
-                                <img src={InterviewIcon} alt='interview icon' style={{height:'154px', width:'154px'}}/>
-                            </Box>
-                            <Box>
-                                <img src={limitationGrey} alt="limitations icon" style={{height:'154px', width:'154px', marginTop:'5.7rem'}}/>
-                            </Box>
-                        </Box>
-                    <Container>
                         <Grid container display="flex" justifyContent="space-between">
                             <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
-                                <Box>
-                                    <div style={{marginBottom:'30px'}}>
+                                    <Box style={{display:'flex'}}>
+                                    <img src={InterviewIcon} alt='interview logo' style={{height:'100px', width:'100px', marginRight:'20px'}}/>
+                                    <div style={{marginBottom:'90px'}}>
                                         <div className='box_header_sec' >About</div>
                                         <div className='box_body_sec'>
                                         Career readiness skills are best assessed through an interview process. The test simulates the first-round interview for hiring processes of a generalist role for students with little or no work experience. The assessment is a mock interview, scored on a standardized rubric that assesses the interviewee's ability to communicate their fit in an interview.
                                         </div>
                                     </div>
-                                    
+                                </Box>
 
-                                    <div className='box_header_sec'> Limitations</div>
-                                    <div className='box_body_sec'>
-                                        <ul style={{paddingLeft:'25px'}}>
+                                <Box style={{display:'flex'}}>
+                                    <img src={limitationGrey} alt="limitations icon" style={{height:'100px', width:'100px',marginRight:'20px'}}/>
+                                    <Box>
+                                        <div className='box_header_sec'> Limitations</div>
+                                            <div className='box_body_sec'>
+                                            <ul style={{paddingLeft:'25px'}}>
                                         <li>
                                         This is a human-administered test and hence, the results can be influenced by individual bias.
                                         </li>
@@ -146,11 +141,9 @@ const LandingPage = ()=> {
                                         </li>
 
                                         </ul>
-                                        
-                                    </div>
-                                </Box>
-
-                                    
+                                            </div>
+                                    </Box>
+                                </Box>    
                             </Grid>
                             <Grid item xs={12} sm={12} md={6} lg={6} xl={6} display="flex" flexDirection="column" justifyContent="space-between">
                                 <Box style={{display:"flex"}}>
@@ -206,55 +199,45 @@ const LandingPage = ()=> {
                                 </Box>              
                             </Grid>
                         </Grid>
-
-                    </Container>
                     </Grid>
                      
                 </Container>
            </div>
-           <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'100%', marginTop:'2rem', backgroundColor:'#f2f2f2', marginBottom:'2rem', paddingTop:'1rem', paddingBottom:'3rem'}}>
+           <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'100%', backgroundColor:'#f2f2f2', paddingTop:'6rem', paddingBottom:'6rem'}}>
                 <Container className='secondary_section' maxWidth="xl">
                     <div className='accordion_header_sec' id="interview_skills_sec">Career Planning</div>
                     <Grid item xs={12} display="flex" justifyContent="space-between">
-                        <Box display="flex" flexDirection="column">
-                            <Box>
-                            <img src={planningIcon} alt='planning logo' style={{height:'154px', width:'154px'}}/>
-                            </Box>
-                            <Box>
-                                <img src={limitationWhite} alt="limitations icon" style={{height:'154px', width:'154px', marginTop:'5.7rem'}}/>
-                            </Box>
-                        </Box>
-                        <Container>
                         <Grid container display="flex" justifyContent="space-between">
                             <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
-                                <Box>
-                                    <div style={{marginBottom:'30px'}}>
+                                    <Box style={{display:'flex'}}>
+                                    <img src={planningIcon} alt='team work logo' style={{height:'100px', width:'100px', marginRight:'20px'}}/>
+                                    <div style={{marginBottom:'90px'}}>
                                         <div className='box_header_sec' >About</div>
                                         <div className='box_body_sec'>
                                         Career Planning is a function of self-awareness as well as an understanding of available career paths. This is assessed through a reflective, planning exercise in which the participants present a Plan A and a Plan B for their career, demonstrating their knowledge of job roles, career pathways, and progression.
                                         </div>
                                     </div>
-                                    
-
-                                    <div className='box_header_sec'> Limitations</div>
-                                    <div className='box_body_sec'>
-                                    <ul style={{paddingLeft:'30px'}}>
-                                    <li>
-                                        This assessment is evaluated by trained enumerators and is hence limited by fallibility of enumerator training and possible bias.
-                                        </li>
-                                        <li>
-                                        The survey assesses only early years (0-2) of career planning.
-                                        </li>
-                                        <li>
-                                        The survey has not been validated in settings of technical/vocational education institutions.
-                                        </li>
-
-</ul>
-                                        
-                                    </div>
                                 </Box>
 
-                                    
+                                <Box style={{display:'flex'}}>
+                                    <img src={limitationWhite} alt="limitations icon" style={{height:'100px', width:'100px',marginRight:'20px'}}/>
+                                    <Box>
+                                        <div className='box_header_sec'> Limitations</div>
+                                            <div className='box_body_sec'>
+                                                <ul style={{paddingLeft:'30px'}}>
+                                                    <li>
+                                                    This assessment is evaluated by trained enumerators and is hence limited by fallibility of enumerator training and possible bias.
+                                                    </li>
+                                                    <li>
+                                                    The survey assesses only early years (0-2) of career planning.
+                                                    </li>
+                                                    <li>
+                                                    The survey has not been validated in settings of technical/vocational education institutions.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                    </Box>
+                                </Box>    
                             </Grid>
                             <Grid item xs={12} sm={12} md={6} lg={6} xl={6} display="flex" flexDirection="column" justifyContent="space-between">
                                 <Box style={{display:"flex"}}>
@@ -311,55 +294,47 @@ const LandingPage = ()=> {
                             </Grid>
                         </Grid>
 
-                    </Container> 
-
                     </Grid>
                    
                 </Container>
            </div>
-           <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'100%', marginTop:'2rem'}}>
+           <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'100%', marginTop:'6rem', marginBottom:'6rem'}}>
                 <Container className='secondary_section' maxWidth="xl">
                     <div className='accordion_header_sec' id="interview_skills_sec">Team Work</div>
 
                     <Grid item xs={12} display="flex" justifyContent="space-between">
-                        <Box display="flex" flexDirection="column">
-                            <Box>
-                            <img src={teamWorkGrey} alt='team work logo' style={{height:'154px', width:'154px'}}/>
-                            </Box>
-                            <Box>
-                                <img src={limitationGrey} alt="limitations icon" style={{height:'154px', width:'154px', marginTop:'7rem'}}/>
-                            </Box>
-                        </Box>
-                        <Container>
-                        <Grid container display="flex" justifyContent="space-between">
+                       <Grid container display="flex" justifyContent="space-between">
                             <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
-                                <Box>
-                                    <div style={{marginBottom:'30px'}}>
+                            <Box style={{display:'flex'}}>
+                                <img src={teamWorkGrey} alt='team work logo' style={{height:'100px', width:'100px', marginRight:'20px'}}/>
+                                    <div style={{marginBottom:'90px'}}>
                                         <div className='box_header_sec' >About</div>
                                         <div className='box_body_sec'>
                                         Team work is influenced by a number of life skills such as communication, empathy, problem-solving and leadership. In this survey, participants are assessed for their ability to understand instructions, and participate in team efforts. Traits such as initiative, creative problem-solving, and encouraging participation from others, are assessed.
                                         </div>
                                     </div>
-                                    
-
-                                    <div className='box_header_sec'> Limitations</div>
-                                    <div className='box_body_sec'>
-                                        <ul style={{paddingLeft:'30px'}}>
-                                        <li>
-                                        The assessment was implemented in only one round of survey (midline assessment of the pilot cohort).                                </li>
-                                        
-                                        <li>
-                                        The assessment may require additional validation and contextualisation.                                        </li>
-                                        <li>
-                                        The assessment is time-intensive, and hence, heavily reliant on availability of resources.            
-                                        </li>
-
-                                        </ul>
-                                        
-                                    </div>
                                 </Box>
 
-                                    
+                                <Box style={{display:'flex'}}>
+                                    <img src={limitationGrey} alt="limitations icon" style={{height:'100px', width:'100px',marginRight:'20px'}}/>
+                                    <Box>
+                                        <div className='box_header_sec'> Limitations</div>
+                                        <div className='box_body_sec'>
+                                            <ul style={{paddingLeft:'30px'}}>
+                                            <li>
+                                            The assessment was implemented in only one round of survey (midline assessment of the pilot cohort).                                </li>
+                                            
+                                            <li>
+                                            The assessment may require additional validation and contextualisation.                                        </li>
+                                            <li>
+                                            The assessment is time-intensive, and hence, heavily reliant on availability of resources.            
+                                            </li>
+
+                                            </ul>
+                                            
+                                        </div>
+                                    </Box>
+                                </Box>    
                             </Grid>
                             <Grid item xs={12} sm={12} md={6} lg={6} xl={6} display="flex" flexDirection="column" justifyContent="space-between">
                             <Box style={{display:"flex"}}>
@@ -416,8 +391,6 @@ const LandingPage = ()=> {
                                   
                             </Grid>
                         </Grid>
-
-                    </Container> 
                     </Grid>
                    
                 </Container>
