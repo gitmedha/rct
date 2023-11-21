@@ -118,9 +118,9 @@ const LandingPage = ()=> {
                     
                     <Grid item xs={12} display="flex" justifyContent="space-between">
                         <Grid container display="flex" justifyContent="space-between">
-                            <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
+                            <Grid item xs={12} sm={12} md={5} lg={5} xl={5}>
                                     <Box style={{display:'flex'}}>
-                                    <img src={InterviewIcon} alt='interview logo' style={{height:'100px', width:'100px', marginRight:'20px'}}/>
+                                    <img src={InterviewIcon} alt='interview logo' style={{height:'100px', width:'100px', marginRight:'60px'}}/>
                                     <div style={{marginBottom:'90px'}}>
                                         <div className='box_header_sec' >About</div>
                                         <div className='box_body_sec'>
@@ -130,7 +130,7 @@ const LandingPage = ()=> {
                                 </Box>
 
                                 <Box style={{display:'flex'}}>
-                                    <img src={limitationGrey} alt="limitations icon" style={{height:'100px', width:'100px',marginRight:'20px'}}/>
+                                    <img src={limitationGrey} alt="limitations icon" style={{height:'100px', width:'100px',marginRight:'60px'}}/>
                                     <Box>
                                         <div className='box_header_sec'> Limitations</div>
                                             <div className='box_body_sec'>
