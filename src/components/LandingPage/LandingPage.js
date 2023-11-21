@@ -74,7 +74,7 @@ const LandingPage = ()=> {
     <>
             <Grid container style={{ display: 'flex' ,backgroundColor:'#31B89D', marginTop:0, marginBottom:0, justifyContent:'space-between', height:'100%'}}>
                 <Container maxWidth="xl">
-                        <Grid container style={{ display: 'flex', justifyContent:"space-between", marginTop:'2rem', marginBottom:'15rem'}}>
+                        <Grid container style={{ display: 'flex', justifyContent:"space-between", marginTop:'2rem', marginBottom:'30rem'}}>
                             <Grid item style={{ flex: 1 }} xs={6} sm={6} md={6} lg={6} xl={6} >
                                     <div className='header_sec'>Toolkit for Assessing <br/>Career Readiness</div>
                                     <Box style={{ display: 'flex', alignItems: 'center',maxWidth:'40%'}}>
