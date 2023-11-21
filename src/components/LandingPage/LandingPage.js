@@ -75,7 +75,7 @@ const LandingPage = ()=> {
     <>
             <Grid container style={{ display: 'flex' ,backgroundColor:'#31B89D', marginTop:0, marginBottom:0, justifyContent:'space-between', height:'100%'}}>
                 <Container maxWidth="xl">
-                        <Grid container style={{ display: 'flex', justifyContent:"space-between", marginTop:'5rem', marginBottom:'10rem'}}>
+                        <Grid container style={{ display: 'flex', justifyContent:"space-between", marginTop:'5rem', marginBottom:'8rem'}}>
                             <Grid item style={{ flex: 1 }} xs={6} sm={6} md={6} lg={6} xl={6} >
                                     <div className='header_sec'>Toolkit for Assessing <br/>Career Readiness</div>
                                     <Box style={{ display: 'flex', alignItems: 'center',maxWidth:'40%'}}>
@@ -101,7 +101,7 @@ const LandingPage = ()=> {
                 </Container>
 
                 <img src={BannerPattern} alt='banner_pattern' style={{ width:'100%'}}/>
-                <div style={{textAlign:'justify', width:'100%', paddingBottom:'20px'} } className="scroll_sec">
+                <div style={{textAlign:'justify', width:'100%', paddingBottom:'10px', paddingTop:'10px'} } className="scroll_sec">
                     Scroll down to view toolkit
                 </div>
                
