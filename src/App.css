@@ -53,11 +53,11 @@ li {
   font-family: BebasNeue-Ragular;
   font-size: 3.5rem;
   color:#ffffff;
-  text-align: left;
+  text-align: justify;
 }
 
 .header_body_sec {
-  text-align: left;
+  text-align: justify;
   font-size: 1.1rem;
   font-family: Lato-Light;
   color:#ffffff;
@@ -68,20 +68,24 @@ li {
   font-family: Lato-Ragular;
   font-size: 1.5rem;
   color:#ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .secondary_header_sec {
   font-family: Lato-Bold;
   font-size: 2rem;
-  text-align: left;
+  text-align: justify;
   font-weight: 1200;
   color: #FF9700;
   margin-left: 10px;
+
 }
 
 .accordion_header_sec {
   font-family: Lato-Bold;
   font-size: 1.7rem;
-  text-align: left;
+  text-align: justify;
   font-weight: 400;
   color:#31B89D;
   margin-top: 2rem;
@@ -93,6 +97,7 @@ li {
   font-size: 1.1rem;
   color:#000000;
   font-weight: 400;
+  text-align: justify;
 }
 
 
@@ -102,6 +107,7 @@ li {
   color:#000000;
   margin-bottom:10px;
   font-weight: 400;
+  text-align: justify;
 }
 
 .logo-image {
@@ -122,6 +128,7 @@ li {
   line-height: 1.5;
   font-weight: 300;
   font-size: 1.1rem;
+  text-align: justify;
 }
 
 .button_footer_sec{
@@ -129,6 +136,7 @@ li {
   color:#000000;
   line-height: 1.25rem;
   font-weight: 500;
+  text-align: justify;
 }
 
 
@@ -150,6 +158,7 @@ li {
     justify-content: center;
     align-items: center;
     font-family: Lato-Light;
+    text-align: justify;
 }
 
 .downloadToolButton {
@@ -162,12 +171,14 @@ li {
   align-items: center;
   background-color: #31B89D;
   font-family: Lato-Light;
+  text-align: justify;
   
 }
 .age_span {
   font-size: 2rem;
   font-family: Lato-Ragular;
   color: #000000;
+  text-align: justify;
 }
 
 
@@ -181,6 +192,7 @@ li {
   color: #ffffff;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  text-align: justify;
 }
 /* <------- media queries-------> */
 
