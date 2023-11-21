@@ -9,7 +9,6 @@ import {
 
 
 import MedhaLogo from '../../assets/images/medhaLogo.png';
-import BannerPattern from '../../assets/images/BannerPattern.png';
 import InterviewIcon from '../../assets/images/interviewIcon.png';
 import targetPopulationGrey from '../../assets/images/planning.png';
 import planningIcon from '../../assets/images/careerplanning.png';
