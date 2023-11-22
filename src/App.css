@@ -49,6 +49,24 @@ li {
     padding: 10px 0 10px 0;
     text-indent: -1.5em;
 }
+
+.header_main_sec {
+  justify-content: space-between;
+  background-color: #31B89D;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100%;
+
+}
+
+.inner_main_sec {
+  justify-content: space-between;
+  margin-bottom: 8rem;
+  padding-top: 5rem;
+  padding-right: 1rem;
+  padding-left:1rem
+
+}
 .header_sec{
   font-family: BebasNeue-Ragular;
   font-size: 3.5rem;
@@ -62,6 +80,18 @@ li {
   font-family: Lato-Light;
   color:#ffffff;
   font-weight: 500;
+}
+
+#banner_divider_sec {
+  display: flex;
+  align-items: center;
+  max-width: 40%;
+}
+
+#banner_divider {
+  background-color: #ffffff;
+  height: 2px;
+  margin-bottom: 10px;
 }
 
 .scroll_sec {
@@ -122,6 +152,12 @@ li {
   margin-bottom: 10px;
 }
 
+.heading_logo {
+  height: 100px;
+  width: 100px;
+  margin-right: 60px;
+}
+
 .box_body_sec {
   font-family: Lato-Light;
   color:#000000;
@@ -139,6 +175,19 @@ li {
   text-align: justify;
 }
 
+.audience_sec {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+
+.button_sec_of_card {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 .learnMoreButton:hover{
   cursor: pointer;
@@ -150,7 +199,7 @@ li {
 
 .learnMoreButton {
     color: #000000;
-    font-weight: 00;
+    font-weight: 300;
     pointer-events: 'all';
     border: 2px solid #31B89D;
     height: 2.3rem;
@@ -159,6 +208,7 @@ li {
     align-items: center;
     font-family: Lato-Light;
     text-align: justify;
+    font-size: 1rem;
 }
 
 .downloadToolButton {
@@ -172,6 +222,7 @@ li {
   background-color: #31B89D;
   font-family: Lato-Light;
   text-align: justify;
+  font-size: 1rem;
   
 }
 .age_span {
@@ -196,9 +247,68 @@ li {
 }
 /* <------- media queries-------> */
 
-@media (max-width: 900px) {
-  /* Hide the image on screens <= md breakpoint */
-  /* .logo-image {
-    display: none;
-  } */
+
+
+
+@media (max-width: 426px) {
+
+  .inner_main_sec {
+    flex-direction: column-reverse !important;
+    text-align: center !important;
+    margin-bottom: 15px;
+  }
+
+  .header_sec {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+  }
+
+  .logo-image {
+    width: 60px;
+    height: 60px;
+  }
+
+  #banner_divider_sec {
+    max-width: 20%;
+    /* margin-left: 6rem; */
+  }
+  .header_body_sec {
+    font-size: 1rem;
+    padding:1.2rem
+  }
+
+  .heading_logo {
+    margin-right: 0;
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+    bottom: 0.8rem;
+    right: 0.5rem;
+  }
+  .box_body_sec {
+    position: relative;
+    right:3rem;
+    top:1rem
+  }
+
+
+  .audience_sec {
+    margin-top: 4rem !important;
+  }
+
+  .action_bottoms_sec {
+    margin-top: 4rem !important;
+  }
+
+  .learnMoreButton {
+    font-size: 0.8rem;
+  }
+
+  .downloadToolButton {
+    font-size: 0.8rem;
+  }
+
 }

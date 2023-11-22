@@ -73,13 +73,13 @@ const LandingPage = ()=> {
   return (
 
     <>
-            <Grid container style={{ display: 'flex' ,backgroundColor:'#31B89D', marginTop:0, marginBottom:0, justifyContent:'space-between', height:'100%'}}>
-                <Container maxWidth="xl">
-                        <Grid container style={{ display: 'flex', justifyContent:"space-between", marginTop:'5rem', marginBottom:'8rem'}}>
-                            <Grid item style={{ flex: 1 }} xs={6} sm={6} md={6} lg={6} xl={6} >
+            <div className='header_main_sec'>
+                <div>
+                        <Grid container className='inner_main_sec'>
+                            <Grid item  xs={12} sm={12} md={12} lg={6} xl={6} >
                                     <div className='header_sec'>Toolkit for Assessing <br/>Career Readiness</div>
-                                    <Box style={{ display: 'flex', alignItems: 'center',maxWidth:'40%'}}>
-                                        <Divider style={{ flex: 1, backgroundColor: '#ffffff', height: '2px',marginBottom:'10px'}} />
+                                    <Box id="banner_divider_sec">
+                                        <Divider style={{ flex: 1}} id="banner_divider"/>
                                     </Box>
                                     <Box>
                                         <div className="header_body_sec">
@@ -98,14 +98,14 @@ const LandingPage = ()=> {
                             </Grid>
                         </Grid>
                         
-                </Container>
+                </div>
 
                 <img src={BannerPattern} alt='banner_pattern' style={{ width:'100%'}}/>
                 <div style={{textAlign:'justify', width:'100%', paddingBottom:'10px', paddingTop:'10px'} } className="scroll_sec">
                     Scroll down to view toolkit
                 </div>
                
-            </Grid>
+            </div>
            
 
            <div style={{ display:'flex', flexDirection:'column', justifyContent:'center', height:'100%', marginTop:'8rem', marginBottom:'8rem'}}>
@@ -119,8 +119,9 @@ const LandingPage = ()=> {
                     <Grid item xs={12} display="flex" justifyContent="space-between">
                         <Grid container display="flex" justifyContent="space-between">
                             <Grid item xs={12} sm={12} md={5} lg={5} xl={5}>
+                                
                                     <Box style={{display:'flex'}}>
-                                    <img src={InterviewIcon} alt='interview logo' style={{height:'100px', width:'100px', marginRight:'60px'}}/>
+                                    <img src={InterviewIcon} alt='interview logo' className='heading_logo'/>
                                     <div style={{marginBottom:'90px'}}>
                                         <div className='box_header_sec' >About</div>
                                         <div className='box_body_sec'>
@@ -130,7 +131,7 @@ const LandingPage = ()=> {
                                 </Box>
 
                                 <Box style={{display:'flex'}}>
-                                    <img src={limitationGrey} alt="limitations icon" style={{height:'100px', width:'100px',marginRight:'60px'}}/>
+                                    <img src={limitationGrey} alt="limitations icon" className='heading_logo'/>
                                     <Box>
                                         <div className='box_header_sec'> Limitations</div>
                                             <div className='box_body_sec'>
@@ -150,7 +151,7 @@ const LandingPage = ()=> {
                                     </Box>
                                 </Box>    
                             </Grid>
-                            <Grid item xs={12} sm={12} md={6} lg={6} xl={6} display="flex" flexDirection="column" justifyContent="space-between">
+                            <Grid item xs={12} sm={12} md={6} lg={6} xl={6}  className="audience_sec">
                                 <Box style={{display:"flex"}}>
                                     <img src={targetPopulationGrey} alt=" target Population icon" style={{height:'35px', width:'35px'}}/>
                                     <Box style={{marginLeft:'10px'}}>
@@ -169,7 +170,7 @@ const LandingPage = ()=> {
                                     </Box>
                                 </Box>
                                 <Box>
-                                        <div className="font-Lato-regular-500">
+                                        <div className="font-Lato-regular-500 action_bottoms_sec">
                                             Click the options below to :
                                         </div>
                                         <Grid container sx={{marginTop:'15px',display:'flex', justifyContent:'space-between', alignItems:'center',}} spacing={2}>
@@ -215,7 +216,7 @@ const LandingPage = ()=> {
                         <Grid container display="flex" justifyContent="space-between">
                             <Grid item xs={12} sm={12} md={5} lg={5} xl={5}>
                                     <Box style={{display:'flex'}}>
-                                    <img src={planningIcon} alt='team work logo' style={{height:'100px', width:'100px', marginRight:'60px'}}/>
+                                    <img src={planningIcon} alt='team work logo' className='heading_logo'/>
                                     <div style={{marginBottom:'90px'}}>
                                         <div className='box_header_sec' >About</div>
                                         <div className='box_body_sec'>
@@ -225,7 +226,7 @@ const LandingPage = ()=> {
                                 </Box>
 
                                 <Box style={{display:'flex'}}>
-                                    <img src={limitationWhite} alt="limitations icon" style={{height:'100px', width:'100px',marginRight:'60px'}}/>
+                                    <img src={limitationWhite} alt="limitations icon" className='heading_logo'/>
                                     <Box>
                                         <div className='box_header_sec'> Limitations</div>
                                             <div className='box_body_sec'>
@@ -244,7 +245,7 @@ const LandingPage = ()=> {
                                     </Box>
                                 </Box>    
                             </Grid>
-                            <Grid item xs={12} sm={12} md={6} lg={6} xl={6} display="flex" flexDirection="column" justifyContent="space-between">
+                            <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className="audience_sec">
                                 <Box style={{display:"flex"}}>
                                     <img src={targetPopulationGrey} alt=" target Population icon" style={{height:'35px', width:'35px'}}/>
                                     <Box style={{marginLeft:'10px'}}>
@@ -263,10 +264,10 @@ const LandingPage = ()=> {
                                     </Box>
                                 </Box>
                                 <Box>
-                                        <div className="font-Lato-regular-500">
+                                        <div className="font-Lato-regular-500 action_bottoms_sec">
                                             Click the options below to :
                                         </div>
-                                        <Grid container sx={{marginTop:'15px',display:'flex', justifyContent:'space-between', alignItems:'center',}} spacing={2}>
+                                        <Grid container sx={{marginTop:'25px',display:'flex', justifyContent:'space-between', alignItems:'center',}} spacing={2}>
                                             <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
                                             <a href="https://medhacorp-my.sharepoint.com/personal/cturillo_medha_org_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FCareer%20Planning%2FMedha%20Career%20Planning%5FLearn%20More%2Epdf&parent=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FCareer%20Planning&ct=1698062583868&or=Teams%2DHL&ga=1&LOF=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                                                 <Box sx={{
@@ -311,7 +312,7 @@ const LandingPage = ()=> {
                        <Grid container display="flex" justifyContent="space-between">
                             <Grid item xs={12} sm={12} md={5} lg={5} xl={5}>
                             <Box style={{display:'flex'}}>
-                                <img src={teamWorkGrey} alt='team work logo' style={{height:'100px', width:'100px', marginRight:'60px'}}/>
+                                <img src={teamWorkGrey} alt='team work logo' className='heading_logo'/>
                                     <div style={{marginBottom:'90px'}}>
                                         <div className='box_header_sec' >About</div>
                                         <div className='box_body_sec'>
@@ -321,7 +322,7 @@ const LandingPage = ()=> {
                                 </Box>
 
                                 <Box style={{display:'flex'}}>
-                                    <img src={limitationGrey} alt="limitations icon" style={{height:'100px', width:'100px',marginRight:'60px'}}/>
+                                    <img src={limitationGrey} alt="limitations icon" className='heading_logo'/>
                                     <Box>
                                         <div className='box_header_sec'> Limitations</div>
                                         <div className='box_body_sec'>
@@ -341,7 +342,7 @@ const LandingPage = ()=> {
                                     </Box>
                                 </Box>    
                             </Grid>
-                            <Grid item xs={12} sm={12} md={6} lg={6} xl={6} display="flex" flexDirection="column" justifyContent="space-between">
+                            <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className="audience_sec">
                             <Box style={{display:"flex"}}>
                                     <img src={targetPopulationGrey} alt=" target Population icon" style={{height:'35px', width:'35px'}}/>
                                     <Box style={{marginLeft:'10px'}}>
@@ -360,11 +361,11 @@ const LandingPage = ()=> {
                                     </Box>
                                 </Box>
                                 <Box>
-                                        <div className="font-Lato-regular-500">
+                                        <div className="font-Lato-regular-500 action_bottoms_sec">
                                             Click the options below to :
                                         </div>
-                                        <Grid container sx={{marginTop:'15px',display:'flex', justifyContent:'space-between', alignItems:'center',}} spacing={2}>
-                                            <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <Grid container sx={{marginTop:'25px',display:'flex', justifyContent:'space-between', alignItems:'center',}} spacing={2}>
+                                            <Grid item xs={6} sm={6} md={6} lg={6} xl={6} >
                                             <a href="https://medhacorp-my.sharepoint.com/personal/cturillo_medha_org_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FTeam%20Work%2FMedha%20Team%20Work%20Evaluation%5FLearn%20More%2Epdf&parent=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FTeam%20Work&ct=1700139410204&or=Teams%2DHL&ga=1&LOF=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                                                 <Box sx={{
                                                     borderRadius: '26px'
