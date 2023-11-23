@@ -37,12 +37,12 @@ const LandingPage = ()=> {
             fileName = "Interview_Skills_Evaluation_Download_Tool.pdf";
         }
         else if (cardName === 'CAREER PLANNING'){
-            pdfUrl = require("../../assets/pdf/Medha_Career_Planning_Download_Tool.pdf");
-            fileName = "Medha_Career_Planning_Download_Tool.pdf";
+            pdfUrl = require("../../assets/pdf/Career_Planning_Worksheet_Download_Tool.pdf");
+            fileName = "Career_Planning_Worksheet_Download_Tool.pdf";
         }
         else {
-            pdfUrl = require("../../assets/pdf/Medha_Team_Work_Evaluation_Download_Tool.pdf");
-            fileName = "Medha_Team_Work_Evaluation_Download_Tool.pdf"
+            pdfUrl = require("../../assets/pdf/Team_Work_Tool_Download_Tool.pdf");
+            fileName = "Team_Work_Tool_Download_Tool.pdf"
         }
 
 
@@ -368,7 +368,7 @@ const LandingPage = ()=> {
                                         </div>
                                         <Grid container sx={{marginTop:'25px',display:'flex', justifyContent:'space-between', alignItems:'center',}} spacing={2}>
                                             <Grid item xs={6} sm={6} md={6} lg={6} xl={6} >
-                                            <a href="https://medhacorp-my.sharepoint.com/personal/cturillo_medha_org_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FTeam%20Work%2FMedha%20Team%20Work%20Evaluation%5FLearn%20More%2Epdf&parent=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FTeam%20Work&ct=1700139410204&or=Teams%2DHL&ga=1&LOF=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                            <a href="https://medhacareerreadiness.s3.ap-south-1.amazonaws.com/Medha+Team+Work+Evaluation_Learn+More.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                                                 <Box sx={{
                                                     borderRadius: '26px'
                                                 }} className="learnMoreButton">
