@@ -77,7 +77,7 @@ const LandingPage = ()=> {
                 <div>
 
                         <div className='inner_main_sec'>
-                            <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+                            <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}} id='banner_heading'>
                                 <div>
                                     <div className='header_sec'>Toolkit for Assessing <br/>Career Readiness</div>
                                         <Box id="banner_divider_sec">
@@ -91,13 +91,13 @@ const LandingPage = ()=> {
 
                             <div>
                             <div className="header_body_sec">
-                                            <div style={{marginTop:'10px', marginBottom:'10px'}}>
-                                            School-to-work transition in India is challenging. Despite increased enrolment in education, youth employability outcomes have declined, while little research exists to discern the efficacy of youth skilling investments. That's why J-PAL and Medha partnered to evaluate an intervention that tackles the pressing employability crisis.
-                                            </div>
-                                            <div style={{marginTop:'10px', marginBottom:'10px'}}>
-                                            Led by Principal Investigator &nbsp;<a href='https://faculty.wcas.northwestern.edu/lab823/' target="_blank" rel="noopener noreferrer">Lori Beaman</a>&nbsp;, three distinct assessments were developed and implemented to evaluate Medha's Career Advancement Bootcamp through randomized controlled trials. These publicly available tools aid practitioners in enhancing career readiness skills in the school-to-work space.
-                                            </div>
-                                        </div>
+                                    <div style={{marginTop:'20px', marginBottom:'20px'}}>
+                                    School-to-work transition in India is challenging. Despite increased enrolment in education, youth employability outcomes have declined, while little research exists to discern the efficacy of youth skilling investments. That's why J-PAL and Medha partnered to evaluate an intervention that tackles the pressing employability crisis.
+                                    </div>
+                                    <div style={{marginTop:'20px', marginBottom:'20px'}}>
+                                    Led by Principal Investigator &nbsp;<a href='https://faculty.wcas.northwestern.edu/lab823/' target="_blank" rel="noopener noreferrer">Lori Beaman</a>&nbsp;, three distinct assessments were developed and implemented to evaluate Medha's Career Advancement Bootcamp through randomized controlled trials. These publicly available tools aid practitioners in enhancing career readiness skills in the school-to-work space.
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
@@ -178,7 +178,7 @@ const LandingPage = ()=> {
                                         </div>
                                         <Grid container sx={{marginTop:'15px',display:'flex', justifyContent:'space-between', alignItems:'center',}} spacing={2}>
                                             <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
-                                                <a href="https://medhacorp-my.sharepoint.com/personal/cturillo_medha_org_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FInterview%20Preparation%2FMedha%20Interview%20Skills%5FLearn%20More%2Epdf&parent=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FInterview%20Preparation&ct=1700139479930&or=Teams%2DHL&ga=1&LOF=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                                <a href="https://medhacareerreadiness.s3.ap-south-1.amazonaws.com/Medha+Interview+Skills_Learn+More.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                                                 <Box sx={{
                                                     borderRadius: '26px'
                                                 }} className="learnMoreButton">
@@ -272,7 +272,7 @@ const LandingPage = ()=> {
                                         </div>
                                         <Grid container sx={{marginTop:'25px',display:'flex', justifyContent:'space-between', alignItems:'center',}} spacing={2}>
                                             <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
-                                            <a href="https://medhacorp-my.sharepoint.com/personal/cturillo_medha_org_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FCareer%20Planning%2FMedha%20Career%20Planning%5FLearn%20More%2Epdf&parent=%2Fpersonal%2Fcturillo%5Fmedha%5Forg%5Fin%2FDocuments%2FCore%20Programs%2FCP%20%2D%20Gardener%2FEmployability%20Skills%20Indices%20PDFs%2FCareer%20Planning&ct=1698062583868&or=Teams%2DHL&ga=1&LOF=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                            <a href="https://medhacareerreadiness.s3.ap-south-1.amazonaws.com/Medha+Career+Planning_Learn+More.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                                                 <Box sx={{
                                                     borderRadius: '26px'
                                                 }} className="learnMoreButton">
@@ -327,8 +327,8 @@ const LandingPage = ()=> {
                                 <Box style={{display:'flex'}}>
                                     <img src={limitationGrey} alt="limitations icon" className='heading_logo'/>
                                     <Box>
-                                        <div className='box_header_sec limit_sec'> Limitations</div>
-                                        <div className='box_body_sec'>
+                                        <div className='box_header_sec'> Limitations</div>
+                                        <div className='box_body_sec limit_sec'>
                                             <ul style={{paddingLeft:'30px'}}>
                                             <li>
                                             The assessment was implemented in only one round of survey (midline assessment of the pilot cohort).                                </li>

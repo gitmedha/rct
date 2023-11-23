@@ -71,7 +71,7 @@ li {
   font-family: BebasNeue-Ragular;
   font-size: 3.5rem;
   color:#ffffff;
-  text-align: justify;
+  text-align: left;
 }
 
 .header_body_sec {
@@ -264,11 +264,11 @@ li {
   }
 
   .header_sec {
-    font-size: 2rem;
+    font-size: 2.2rem;
     display: flex;
     justify-content: center;
     margin-top: 1rem;
-    text-align: left;
+    text-align: justify;
 
   }
 
@@ -285,6 +285,8 @@ li {
     font-size: 1rem;
    text-align: left;
    width: 100%;
+   margin-bottom: 4rem;
+   margin-top: 1rem;
   }
 
   .heading_logo {
@@ -304,6 +306,10 @@ li {
     right:3rem;
     top:1rem
   }
+  #banner_heading {
+    flex-direction: column-reverse;
+    align-items: baseline !important;
+  }
 
 .limit_sec {
   text-align: left;
@@ -315,6 +321,8 @@ li {
 }
 .students_sec {
   text-align: left;
+  line-height: 1.5;
+  margin-top: 10px;
 }
   .audience_sec {
     margin-top: 4rem !important;
@@ -331,5 +339,10 @@ li {
   .downloadToolButton {
     font-size: 0.8rem;
   }
+
+  .scroll_sec {
+    font-size: 1rem;
+    padding-bottom: 4rem !important;
+  } 
 
 }
