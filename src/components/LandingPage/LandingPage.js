@@ -403,7 +403,7 @@ const LandingPage = ()=> {
                    
                 </Container>
            </div>
-        <div className='footer_sec'>Designed & conceptualized by <a href='https://www.linkedin.com/in/shivani-sharma-exp' target='_blank'>Shivani S.</a></div>
+        <div className='footer_sec'>Designed & conceptualized by &nbsp;<a href='https://www.linkedin.com/in/shivani-sharma-exp' target='_blank'>Shivani S.</a></div>
     </>
   )
 }
