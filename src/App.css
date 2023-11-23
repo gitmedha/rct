@@ -80,6 +80,7 @@ li {
   font-family: Lato-Light;
   color:#ffffff;
   font-weight: 500;
+  width: 50%;
 }
 
 #banner_divider_sec {
@@ -92,6 +93,10 @@ li {
   background-color: #ffffff;
   height: 2px;
   margin-bottom: 10px;
+}
+
+.banner_pattern {
+  width:100%
 }
 
 .scroll_sec {
@@ -253,9 +258,9 @@ li {
 @media (max-width: 431px) {
 
   .inner_main_sec {
-    flex-direction: column-reverse !important;
-    text-align: center !important;
     margin-bottom: 15px;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 
   .header_sec {
@@ -263,6 +268,7 @@ li {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+    text-align: left;
 
   }
 
@@ -277,7 +283,8 @@ li {
   }
   .header_body_sec {
     font-size: 1rem;
-    padding:1.2rem
+   text-align: left;
+   width: 100%;
   }
 
   .heading_logo {
@@ -288,13 +295,27 @@ li {
     bottom: 0.8rem;
     right: 0.5rem;
   }
+
+  .banner_pattern {
+    display: none;
+  }
   .box_body_sec {
     position: relative;
     right:3rem;
     top:1rem
   }
 
+.limit_sec {
+  text-align: left;
+}
 
+.age_group_sec {
+  display: flex;
+  flex-direction: column;
+}
+.students_sec {
+  text-align: left;
+}
   .audience_sec {
     margin-top: 4rem !important;
   }

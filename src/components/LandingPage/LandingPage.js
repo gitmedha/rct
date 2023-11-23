@@ -75,14 +75,22 @@ const LandingPage = ()=> {
     <>
             <div className='header_main_sec'>
                 <div>
-                        <Grid container className='inner_main_sec'>
-                            <Grid item  xs={12} sm={12} md={12} lg={6} xl={6} >
+
+                        <div className='inner_main_sec'>
+                            <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+                                <div>
                                     <div className='header_sec'>Toolkit for Assessing <br/>Career Readiness</div>
-                                    <Box id="banner_divider_sec">
-                                        <Divider style={{ flex: 1}} id="banner_divider"/>
-                                    </Box>
-                                    <Box>
-                                        <div className="header_body_sec">
+                                        <Box id="banner_divider_sec">
+                                            <Divider style={{ flex: 1}} id="banner_divider"/>
+                                        </Box>
+                                    </div>
+                                <div>
+                                    <img src={MedhaLogo}  alt='Medha logo' className='logo-image'/>
+                                </div>
+                            </div>
+
+                            <div>
+                            <div className="header_body_sec">
                                             <div style={{marginTop:'10px', marginBottom:'10px'}}>
                                             School-to-work transition in India is challenging. Despite increased enrolment in education, youth employability outcomes have declined, while little research exists to discern the efficacy of youth skilling investments. That's why J-PAL and Medha partnered to evaluate an intervention that tackles the pressing employability crisis.
                                             </div>
@@ -90,17 +98,13 @@ const LandingPage = ()=> {
                                             Led by Principal Investigator &nbsp;<a href='https://faculty.wcas.northwestern.edu/lab823/' target="_blank" rel="noopener noreferrer">Lori Beaman</a>&nbsp;, three distinct assessments were developed and implemented to evaluate Medha's Career Advancement Bootcamp through randomized controlled trials. These publicly available tools aid practitioners in enhancing career readiness skills in the school-to-work space.
                                             </div>
                                         </div>
-                                    </Box>
-                                    
-                            </Grid>
-                            <Grid item>
-                                <img src={MedhaLogo}  alt='Medha logo' className='logo-image'/>
-                            </Grid>
-                        </Grid>
+                            </div>
+
+                        </div>
                         
                 </div>
 
-                <img src={BannerPattern} alt='banner_pattern' style={{ width:'100%'}}/>
+                <img src={BannerPattern} alt='banner_pattern' className='banner_pattern'/>
                 <div style={{textAlign:'justify', width:'100%', paddingBottom:'10px', paddingTop:'10px'} } className="scroll_sec">
                     Scroll down to view toolkit
                 </div>
@@ -134,7 +138,7 @@ const LandingPage = ()=> {
                                     <img src={limitationGrey} alt="limitations icon" className='heading_logo'/>
                                     <Box>
                                         <div className='box_header_sec'> Limitations</div>
-                                            <div className='box_body_sec'>
+                                            <div className='box_body_sec limit_sec'>
                                             <ul style={{paddingLeft:'25px'}}>
                                         <li>
                                         This is a human-administered test and hence, the results can be influenced by individual bias.
@@ -157,13 +161,12 @@ const LandingPage = ()=> {
                                     <Box style={{marginLeft:'10px'}}>
                                         <div className='box_header_sec'>Target Population</div>
                                         <div className='box_body_sec' style={{lineHeight:'30px', marginTop:'18px'}}>
-                                            <div>
+                                            <div className='age_group_sec'>
                                             AGE &nbsp;&nbsp;&nbsp;<span className="age_span">19&nbsp;-&nbsp;25 Years</span>
 
                                             </div>
-                                            <div>
-                                            Students or graduates of general degree colleges
-
+                                            <div className='students_sec'>
+                                                Students or graduates of general degree colleges
                                             </div>
                                         
                                         </div>
@@ -229,7 +232,7 @@ const LandingPage = ()=> {
                                     <img src={limitationWhite} alt="limitations icon" className='heading_logo'/>
                                     <Box>
                                         <div className='box_header_sec'> Limitations</div>
-                                            <div className='box_body_sec'>
+                                            <div className='box_body_sec limit_sec'>
                                                 <ul style={{paddingLeft:'30px'}}>
                                                     <li>
                                                     This assessment is evaluated by trained enumerators and is hence limited by fallibility of enumerator training and possible bias.
@@ -251,11 +254,11 @@ const LandingPage = ()=> {
                                     <Box style={{marginLeft:'10px'}}>
                                         <div className='box_header_sec'>Target Population</div>
                                         <div className='box_body_sec' style={{lineHeight:'30px', marginTop:'18px'}}>
-                                            <div>
+                                            <div className='age_group_sec'>
                                             AGE &nbsp;&nbsp;&nbsp;<span className="age_span">19&nbsp;-&nbsp;25 Years</span>
 
                                             </div>
-                                            <div>
+                                            <div className='students_sec'>
                                             Students or graduates of general degree colleges
 
                                             </div>
@@ -324,7 +327,7 @@ const LandingPage = ()=> {
                                 <Box style={{display:'flex'}}>
                                     <img src={limitationGrey} alt="limitations icon" className='heading_logo'/>
                                     <Box>
-                                        <div className='box_header_sec'> Limitations</div>
+                                        <div className='box_header_sec limit_sec'> Limitations</div>
                                         <div className='box_body_sec'>
                                             <ul style={{paddingLeft:'30px'}}>
                                             <li>
@@ -348,13 +351,12 @@ const LandingPage = ()=> {
                                     <Box style={{marginLeft:'10px'}}>
                                         <div className='box_header_sec'>Target Population</div>
                                         <div className='box_body_sec' style={{lineHeight:'30px', marginTop:'18px'}}>
-                                            <div>
+                                            <div className='age_group_sec'>
                                             AGE &nbsp;&nbsp;&nbsp;<span className="age_span">19&nbsp;-&nbsp;25 Years</span>
 
                                             </div>
-                                            <div>
-                                            Students or graduates of general degree colleges
-
+                                            <div className='students_sec'>
+                                                Students or graduates of general degree colleges
                                             </div>
                                         
                                         </div>
