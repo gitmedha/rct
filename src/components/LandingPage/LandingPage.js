@@ -403,7 +403,7 @@ const LandingPage = ()=> {
                    
                 </Container>
            </div>
-        <div className='footer_sec'>\Designed & conceptualized by Shivani S</div>
+        <div className='footer_sec'>Designed & conceptualized by Shivani S.</div>
     </>
   )
 }
