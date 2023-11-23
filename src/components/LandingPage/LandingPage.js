@@ -95,7 +95,7 @@ const LandingPage = ()=> {
                                     School-to-work transition in India is challenging. Despite increased enrolment in education, youth employability outcomes have declined, while little research exists to discern the efficacy of youth skilling investments. That's why J-PAL and Medha partnered to evaluate an intervention that tackles the pressing employability crisis.
                                     </div>
                                     <div style={{marginTop:'20px', marginBottom:'20px'}}>
-                                    Led by Principal Investigator &nbsp;<a href='https://faculty.wcas.northwestern.edu/lab823/' target="_blank" rel="noopener noreferrer">Lori Beaman</a>&nbsp;, three distinct assessments were developed and implemented to evaluate Medha's Career Advancement Bootcamp through randomized controlled trials. These publicly available tools aid practitioners in enhancing career readiness skills in the school-to-work space.
+                                    Led by Principal Investigator &nbsp;<a href='https://faculty.wcas.northwestern.edu/lab823/' target="_blank" rel="noopener noreferrer">Lori Beaman</a>, three distinct assessments were developed and implemented to evaluate Medha's Career Advancement Bootcamp through randomized controlled trials. These publicly available tools aid practitioners in enhancing career readiness skills in the school-to-work space.
                                     </div>
                                 </div>
                             </div>
@@ -403,7 +403,7 @@ const LandingPage = ()=> {
                    
                 </Container>
            </div>
-        <div className='footer_sec'>Designed & conceptualized by Shivani S.</div>
+        <div className='footer_sec'>Designed & conceptualized by <a href='https://www.linkedin.com/in/shivani-sharma-exp' target='_blank'>Shivani S.</a></div>
     </>
   )
 }
