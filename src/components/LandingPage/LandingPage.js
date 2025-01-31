@@ -79,7 +79,7 @@ const LandingPage = ()=> {
                         <div className='inner_main_sec'>
                             <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}} id='banner_heading'>
                                 <div>
-                                    <div className='header_sec'>Toolkit for Assessing <br/>Career Readiness</div>
+                                    <div className='header_sec'>Toolkit for Accessing  <br/>Career Readiness</div>
                                         <Box id="banner_divider_sec">
                                             <Divider style={{ flex: 1}} id="banner_divider"/>
                                         </Box>
